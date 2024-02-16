@@ -62,7 +62,7 @@ while True:
 
 while True:
     try:
-        method = int(input(bane.Fore.GREEN + '\nAttack method: \n\t1- OPTIONS \n\t2- GET \n\t3- POST \n\t4- GET + POST + OPTIONS +CONNECT\n\-5 CONNECT \n=>' + bane.Fore.WHITE))
+        method = int(input(bane.Fore.GREEN + '\nAttack method: \n\t1- OPTIONS \n\t2- GET \n\t3- POST \n\t4- GET + POST + OPTIONS + CONNECT \n\t-5 CONNECT\n=>' + bane.Fore.WHITE))
         if  method in [1,2,3,4,5] :
             break
         print(bane.Fore.RED + 'Please enter a valid choice..' + bane.Fore.WHITE)
